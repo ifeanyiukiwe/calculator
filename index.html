@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator-App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="control">
+        <aside id="display"></aside>
+        <aside class="buttons">
+          <ul>
+            <li>
+              <button
+                onclick="
+            
+                    calc = '';
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                AC
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc = calc.slice(0, -1);
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+                style="background-color: red"
+              >
+                DE
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '%'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                %
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '/'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+                style="background-color: goldenrod"
+              >
+                /
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '7'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                7
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '8'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                8
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '9'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                9
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '*'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+                style="background-color: goldenrod"
+              >
+                *
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '4'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                4
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '5'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                5
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '6'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                6
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '-'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+                style="background-color: goldenrod"
+              >
+                -
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '1'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                1
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '2'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                2
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '3'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                3
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '+'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+                style="background-color: goldenrod"
+              >
+                +
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '0'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                0
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '00'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                00
+              </button>
+            </li>
+            <li>
+              <button
+                onclick="
+            
+                    calc += '.'
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+                    "
+              >
+                .
+              </button>
+            </li>
+
+            <li>
+              <button
+                onclick="
+                    calc = eval(calc)
+                    console.log(calc);
+        
+                    document.getElementById('display').innerHTML = calc;
+        
+        
+                    "
+                style="background-color: goldenrod"
+              >
+                =
+              </button>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
