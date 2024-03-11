@@ -16,8 +16,7 @@
 .control {
   background-color: #3a4452;
   padding: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 50px;
 }
 #display {
   padding: 20px;
