@@ -19,7 +19,8 @@
   border-radius: 50px;
 }
 #display {
-  padding: 20px;
+  padding: 0px 20px;
+  height: 100px;
   background-color: transparent;
   color: white;
   display: flex;
